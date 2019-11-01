@@ -227,9 +227,9 @@ a {
 	display: flex;
 	align-items: flex-start;
 }
-.services1 p{
+.services1 {
 	display: flex;
-	justify-content: center;
+	flex-direction: column;
 	padding: 30px;
 	text-align: left;
 	font-size: 15px;
@@ -248,36 +248,42 @@ a {
 	margin-right: 80px
 }
 .digitaldesign {
+	margin-top: 20px;
 	font-size: 14px;
 	width: 390px;
 	height: 180px;
 	border: solid black 1px;
 }
 .uxui {
+	margin-top: 20px;
 	font-size: 14px;
 	width: 390px;
 	height: 180px;
 	border: solid black 1px;
 }
 .digimark {
+	margin-top: 20px;
 	font-size: 14px;
 	width: 390px;
 	height: 180px;
 	border: solid black 1px;
 }
 .webdev {
+	margin-top: 20px;
 	font-size: 14px;
 	width: 390px;
 	height: 180px;
 	border: solid black 1px;
 }
 .ios {
+	margin-top: 20px;
 	font-size: 14px;
 	width: 390px;
 	height: 180px;
 	border: solid black 1px;
 }
 .android {
+	margin-top: 20px;
 	font-size: 14px;
 	width: 390px;
 	height: 180px;
@@ -287,6 +293,7 @@ a {
 	display: flex;
 	flex-direction: column;
 	justify-content: flex-start;
+	width: 40%;
 
 }
 
